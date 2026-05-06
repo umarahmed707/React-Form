@@ -1,9 +1,13 @@
 
+
 import './App.css';
-import Card from './component/Card'
+import Api from '../src/component/Api'
 // import { useEffect, useState } from 'react';
+// import axios from 'axios';
+// // import { useEffect, useState } from 'react';
 
 function App() {
+
   // const [students,Setstudents]=useState(false)
   // const [students1,Setstudents1]=useState(false)
   // const [students2,Setstudents2]=useState(false)
@@ -39,7 +43,8 @@ function App() {
       <button onClick={()=>(Setstudents7(!students7))}>Click here</button>
       <button onClick={()=>(Setstudents8(!students8))}>Click here</button>
       <button onClick={()=>(Setstudents9(!students9))}>Click here</button> */}
-      <Card/>
+    {/* <Card/> */}
+ <Api/>
     </div>
   );
 }
