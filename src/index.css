@@ -75,11 +75,15 @@ body {
 
 .card {
   
-  width: 320px;
+  width: 350px;
   background: #fff;
   border-radius: 12px;
   height: 550px;
+  justify-content: space-between;
   overflow: hidden;
+    display: flex;
+  flex-direction: column;
+padding: 20px 20px;
   margin: 30px auto;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -149,9 +153,9 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  margin-top: auto;
   transition: 0.3s;
 }
-
 .btn:hover {
   background: #c2185b;
 }

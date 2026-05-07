@@ -2,7 +2,7 @@ import React from "react";
 
 const Apicard = (props) => {
 
-    const {product} = props
+  const { product } = props
 
   const discountedPrice = (
     product.price -
@@ -11,9 +11,11 @@ const Apicard = (props) => {
 
   return (
     <div className="card">
-      <img src={product.thumbnail} alt={product.title} className="card-img" />
-
       <div className="card-body">
+        <img src={product.thumbnail} alt={product.title} className="card-img" />
+
+<div style={{marginTop:"10px"}}>
+
         <h2 className="title">{product.title}</h2>
         <p className="brand">{product.brand}</p>
 
@@ -29,11 +31,14 @@ const Apicard = (props) => {
           <span>⭐ {product.rating}</span>
           <span>Stock: {product.stock}</span>
         </div>
+        </div>
 
-        <button className="btn">Add to Cart</button>
-
-    
       </div>
+
+      <button className="btn">Add to Cart</button>
+
+
+
     </div>
   );
 
