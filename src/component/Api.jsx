@@ -19,7 +19,7 @@ export const Api = () => {
     getdata()
   },[])
   return (
-    <div style={{display:"flex", gap:"40px", flexWrap:"wrap", margin:"20px 40px"}}>
+    <div style={{display:"flex", justifyContent:"center",  flexWrap:"wrap", margin:"20px 40px", gap:"40px"}}>
       {/* {products?.map((eachProduct) => {
         // console.log(eachProduct)
         return(
