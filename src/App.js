@@ -1,7 +1,8 @@
 
 
 import './App.css';
-import Api from '../src/component/Api'
+// import Api from '../src/component/Api'
+import { Recipesapi } from './component/Recipesapi';
 // import { useEffect, useState } from 'react';
 // import axios from 'axios';
 // // import { useEffect, useState } from 'react';
@@ -44,7 +45,7 @@ function App() {
       <button onClick={()=>(Setstudents8(!students8))}>Click here</button>
       <button onClick={()=>(Setstudents9(!students9))}>Click here</button> */}
     {/* <Card/> */}
- <Api/>
+ <Recipesapi/>
     </div>
   );
 }
